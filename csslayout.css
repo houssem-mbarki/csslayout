@@ -1,0 +1,144 @@
+body {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: grey;
+
+}
+.activ1{
+    color: #5dc6b0;
+}
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding:0 40px;
+}
+.logo-css{
+    width: 260px;
+    padding: 30px 150px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navdepart{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    margin:0px;
+    padding:0px;
+    color: #747474;
+}
+.navdepart a{
+    margin: 30px;
+    text-decoration: none;
+    
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titele{
+    font-size: 2.125rem;
+    color: #00b39b;
+    margin: 1em 0;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    display: flex;
+    justify-content: center;
+}
+.ps{
+    margin: 120px;
+    color: #747474;
+    display: flex;
+    justify-content: center;
+    padding: -10px 200px;    
+    line-height: 2em;
+}
+.p1{
+    margin-right: 30px;
+}
+.section2{
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+.choose{
+    background-color: #00ccb1;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #00ccb1;
+    color: white;
+    text-decoration: underline;
+}
+.choose2{
+    background-color: #3d83df;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: #3d83df;
+    color: white;
+    text-decoration: underline;
+}
+.clinic{
+    background-color: #1b2734;
+    border-radius: 5px;
+    border-color: #1b2734;
+    color: white;
+    padding: 15px ;
+    text-decoration: underline;
+    position: relative;
+    width: 200px;
+    height: 70px;
+}
+.im{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+
+}
+.patients{
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: #00ccb1;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.doctors{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3d83df;
+}
+.clinics{
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 10px;
+    padding: 30px;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #1b2734;
+}
+.im{
+    max-width: 100%;
+    height: auto;
+}
